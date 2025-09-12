@@ -66,25 +66,25 @@ config.set('training.batch_size', 64)
 config.set('training.num_epochs', 100)
 ```
 # Model Architecture
--Encoder: ResNet50 (pretrained on ImageNet)
--Decoder: U-Net decoder
--Input: 3-channel RGB images
--Output: 1-channel pressure maps
--Loss: MSE
--Optimizer: Adam
+- Encoder: ResNet50 (pretrained on ImageNet)
+- Decoder: U-Net decoder
+- Input: 3-channel RGB images
+- Output: 1-channel pressure maps
+- Loss: MSE
+- Optimizer: Adam
 # Metrics
 The model is evaluated using:
--RMSE (Root Mean Square Error)
--SSIM (Structural Similarity Index)
--PSNR (Peak Signal-to-Noise Ratio)
--MAE (Mean Absolute Error)
+- RMSE (Root Mean Square Error)
+- SSIM (Structural Similarity Index)
+- PSNR (Peak Signal-to-Noise Ratio)
+- MAE (Mean Absolute Error)
 # Output
 Training produces:
--Model checkpoint: result/model_save/IR_PM_save/model_e{epoch}.pth
--Predictions: result/{run_name}/preds/*.npy
--Metrics report: Console output with test set performance
+- Model checkpoint: result/model_save/IR_PM_save/model_e{epoch}.pth
+- Predictions: result/{run_name}/preds/*.npy
+- Metrics report: Console output with test set performance
 # Requirements
--Python 3.7+
--PyTorch 1.9+
--CUDA-capable GPU (recommended)
--~4GB RAM minimum
+- Python 3.7+
+- PyTorch 1.9+
+- CUDA-capable GPU (recommended)
+- ~4GB RAM minimum
