@@ -3,6 +3,11 @@
  
 Deep learning model for predicting Pressure Maps (PM) from Infrared (IR) images using U-Net architecture with ResNet50 encoder.
 
+<img width="502" height="294" alt="image" src="https://github.com/user-attachments/assets/6049dfec-888c-4e42-b696-0bdc5ed5a2c8" />
+
+
+
+
 ```bash
 # Clone repository
 git clone <your-repo-url>
